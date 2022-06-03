@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<bug>
+<title>With a given combination of widgets, it is impossible to set the required size of two widgets l= 1x2, l=2x2</title>
+<severity>low</severity>
+<priority>low</priority>
+<environment>Samsung Galaxy A32, Android 11 (A325FXXU2AUK3) 4x5, screen zoom min, font size min</environment>
+<STR>
+1.Open the app
+2.Tap ADD WIDGET button
+3.Click button [Добавить] on appeared menu
+4.Tap ADD WIDGET 6 times
+5.Go to the active homescreen
+6.long tap the added widget (1) and try to resize it to l=1 x 2
+7.long tap the added widget (2) and try to resize it to l=2 x 2
+</STR>
+<AR>
+1. Widget (1) can’t be resized to l=1 x 2  (only l= 1 x 1 or l= 1 x 3) onn 4x5, screen zoom min, font size min
+2. Widget (2) can’t be resized to l=2 x 2  (only l= 2 x 1 or l= 2 x 3) on 4x5, screen zoom min, font size min
+</AR>
+<ER>Widget (1) should be resizable to l=1 x 2  and Widget (2) should be resizable to l=2 x 2   if homescreen grid size allows</ER>
+</bug>
